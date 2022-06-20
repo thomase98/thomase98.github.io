@@ -1,0 +1,90 @@
+body, html {
+  height: 100%;
+  color: #fff;
+}
+
+header, main, footer {
+  background-size: cover;
+}
+
+header {
+  background-color:#FFC300 
+  border-bottom: 1px solid #FFC300 ;
+}
+
+header h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Futura;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-top: 0px;           
+  /* zero background border */
+  margin-bottom: 40px;      
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 24px;
+  padding-top: 0px;         
+  /* so that i dont get a white border*/
+  margin: 0px;               
+}
+
+header p {
+  text-align: center;
+}
+
+header p {
+  color: #fff;
+  font-family: arial;
+  background-color: orange;
+ 
+  text-transform: uppercase;
+  padding: 15px 20px;         
+  border-radius: 20px;        
+}
+.center { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+}
+
+body {  /*all text will be displayed in white*/
+  font-color: white;
+  background: /* top, transparent black */
+  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url(images/orange-arts.jpg);
+}
+a:link {
+  color: white;
+ 
+}
+
+a:visited {
+  color: black;
+ 
+}
+
+a:hover {
+  color: pink;
+  
+}
+
+a:active {
+  color: yellow;
+  
+}
+
+hr{
+  height: 4px;
+  background-color: white
+  border: 2px solid white
+      /* size style color */
+  margin-top: 80px;
+  margin-bottom: 80px
+}
